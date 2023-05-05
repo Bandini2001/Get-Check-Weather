@@ -1,10 +1,8 @@
 const apiKey = "4a67a28812974097997201250230604";
 
-
 function cityname() {
   const city = document.getElementById("city");
   console.log("aaaaaaaaaaaaaaa", city.value);
-
   fetch(
     `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city.value}`
   )
@@ -21,7 +19,6 @@ function cityname() {
       document.getElementById("gust").textContent = weather.gust_kph;
       document.getElementById("pressure").textContent = weather.pressure_in;
       document.getElementById("windDegree").textContent = weather.wind_degree;
-
     })
     .catch((error) => {
       console.error("Error fetching weather data: ", error.current);
