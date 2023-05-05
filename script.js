@@ -24,7 +24,7 @@ function cityname() {
       console.error("Error fetching weather data: ", error.current);
     
     });
-    /*alert("Show Notification!");*/
+    alert("You want to see changing weather notificatuons!");
 }
 
 
