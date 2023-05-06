@@ -166,7 +166,7 @@ div.transbox p {
 
 
 /*-- for small screen devices--*/
-@media only screen and (max-width: 968px) {
+@media only screen and (max-width: 480px) {
 	.leftrightDiv {
 		display: flex;
 		flex-direction: column;
@@ -252,8 +252,8 @@ div.transbox p {
 		border: none;
 	}
 	.details{
-		margin-left: 200px;
-		margin-right:3000px;
+		margin-left: 100px;
+		margin-right: 200px;
 	}
 }
 
