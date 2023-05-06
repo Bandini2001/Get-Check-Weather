@@ -3,7 +3,7 @@ const apiKey = "4a67a28812974097997201250230604";
 function cityname() {
   const city = document.getElementById("city");
   console.log("aaaaaaaaaaaaaaa", city.value);
-  fetch(
+  fetch(/* open weather api(application programming interface) format(json, xlm)*/
     `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city.value}`
   )
     .then((response) => response.json())
